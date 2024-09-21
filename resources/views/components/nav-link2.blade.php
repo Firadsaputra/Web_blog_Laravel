@@ -1,0 +1,5 @@
+    <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+    <a href="/" class=" {{request()->is('/') ? "bg-gray-900 text-white" : "text-gray-300 hover:bg-gray-700 hover:text-white"}} block rounded-md  px-3 py-2 text-sm font-medium " aria-current="page">Dashboard</a>
+    <a href="/posts" class=" {{request()->is('posts') ? "bg-gray-900 text-white" : "text-gray-300 hover:bg-gray-700 hover:text-white"}} block rounded-md  px-3 py-2 text-sm font-medium " aria-current="page">Blog</a>
+    <a href="/about" class=" {{request()->is('about') ? "bg-gray-900 text-white" : "text-gray-300 hover:bg-gray-700 hover:text-white"}} block rounded-md  px-3 py-2 text-sm font-medium " aria-current="page">About</a>
+    <a href="/contact" class=" {{request()->is('contact') ? "bg-gray-900 text-white" : "text-gray-300 hover:bg-gray-700 hover:text-white"}} block rounded-md  px-3 py-2 text-sm font-medium " aria-current="page">Contact</a>
